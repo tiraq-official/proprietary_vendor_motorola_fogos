@@ -3219,7 +3219,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/fogos/proprietary/vendor/etc/camera/vidhance_calibration_2rd:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration_2rd \
     vendor/motorola/fogos/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc \
     vendor/motorola/fogos/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc2.rc \
-    vendor/motorola/fogos/proprietary/vendor/etc/init/motorola.hardware.camera.desktop@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.desktop@2.0-service.rc \
     vendor/motorola/fogos/proprietary/vendor/etc/libnfc-sec-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-nci.conf \
     vendor/motorola/fogos/proprietary/vendor/etc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf \
     vendor/motorola/fogos/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_tm_icnl9916c_hdp_652_120.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_tm_icnl9916c_hdp_652_120.xml \
@@ -3453,5 +3452,4 @@ PRODUCT_PACKAGES += \
     com.android.hotwordenrollment.common.util \
     capsense_reset \
     android.hardware.biometrics.fingerprint@2.1-goodixservice \
-    android.hardware.biometrics.fingerprint@2.1-service-fpc \
-    motorola.hardware.camera.desktop@2.0-service
+    android.hardware.biometrics.fingerprint@2.1-service-fpc
